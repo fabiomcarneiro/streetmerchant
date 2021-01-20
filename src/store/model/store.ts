@@ -159,6 +159,7 @@ export type Model =
   | 'vision'
   | 'xbox series s'
   | 'xbox series x'
+  | 'xc'
   | 'xc black'
   | 'xc gaming'
   | 'xc3 black'

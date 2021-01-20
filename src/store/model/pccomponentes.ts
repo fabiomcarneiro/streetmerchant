@@ -32,6 +32,62 @@ export const PCComponentes: Store = {
         'https://www.pccomponentes.com/gigabyte-geforce-rtx-3080-eagle-oc-10g-10gb-gddr6x',
     },
     {
+      brand: 'evga',
+      model: 'xc',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/evga-geforce-rtx-3060-ti-xc-8gb-gddr6',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/gigabyte-geforce-rtx-3060-ti-gaming-oc-8gb-gddr6',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming x trio',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/msi-rtx-3060-ti-gaming-x-trio-8gb-gddr6',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/asus-tuf-geforce-rtx-3060ti-o8g-gaming-8gb-gddr6',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'eagle',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/gigabyte-geforce-rtx-3060-ti-eagle-oc-8gb-gddr6',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/gigabyte-geforce-rtx-3060-ti-gaming-oc-pro-8gb-gddr6',
+    },
+    {
+      brand: 'evga',
+      model: 'ftw3',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/evga-geforce-rtx-3060-ti-ftw3-ultra-8gb-gddr6',
+    },
+    {
+      brand: 'asus',
+      model: 'dual',
+      series: '3060ti',
+      url:
+        'https://www.pccomponentes.com/asus-geforce-rtx-3060ti-dual-o8g-8gb-gddr6',
+    },
+    {
       brand: 'msi',
       model: 'ventus 3x oc',
       series: '3080',

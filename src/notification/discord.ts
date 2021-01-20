@@ -25,12 +25,12 @@ export function sendDiscordMessage(link: Link, store: Store) {
     (async () => {
       try {
         const embed = new Discord.MessageEmbed()
-          .setTitle('_**Stock alert!**_')
+          .setTitle('VIZBOT NEW STOCK !!')
           .setDescription(
-            '> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
+            `${link.brand} ${link.model} ${link.series}`
           )
           .setThumbnail(
-            'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
+            'https://i.imgur.com/32zaf1G.png'
           )
           .setColor('#52b788')
           .setTimestamp();
@@ -65,7 +65,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
             client,
             message: client.send(notifyText.join(' '), {
               embeds: [embed],
-              username: 'streetmerchant',
+              username: 'Vizbot',
             }),
           });
         }
