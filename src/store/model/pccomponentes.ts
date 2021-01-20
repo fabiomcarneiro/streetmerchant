@@ -109,6 +109,34 @@ export const PCComponentes: Store = {
         'https://www.pccomponentes.com/gigabyte-geforce-rtx-3080-gaming-oc-10g-10gb-gddr6x',
     },
     {
+      brand: 'gigabyte',
+      model: 'aorus xtreme waterforce',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/gigabyte-aorus-geforce-rtx-3080-xtreme-waterforce-10gb-gddr6x',
+    },
+    {
+      brand: 'zotac',
+      model: 'amp holo',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/zotac-gaming-geforce-rtx-3080-amp-holo-10gb-gddrx6',
+    },
+    {
+      brand: 'evga',
+      model: 'xc3 ultra hybrid',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/evga-geforce-rtx-3080-xc3-ultra-hybrid-gaming-10gb-gddr6x',
+    },
+    {
+      brand: 'evga',
+      model: 'ftw3 ultra hybrid',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/evga-geforce-rtx-3080-ftw3-ultra-hybrid-gaming-10gb-gddr6x',
+    },
+    {
       brand: 'msi',
       model: 'gaming x trio',
       series: '3080',
@@ -218,7 +246,28 @@ export const PCComponentes: Store = {
       model: 'xlr8 revel',
       series: '3080',
       url:
-        'https://www.pccomponentes.com/pny-geforce-rtx-3080-epic-x-rgb-triple-fan-xlr8-gaming-edition-10gb-gddr6x',
+        'https://www.pccomponentes.com/pny-geforce-rtx-3080-xlr8-gaming-revel-epic-x-rgb-triple-fan-edition-10gb-gddr6x',
+    },
+    {
+      brand: 'pny',
+      model: 'xlr8 uprising',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/pny-geforce-rtx-3080-xlr8-gaming-uprising-epic-x-rgb-triple-fan-edition-10gb-gddr6x',
+    },
+    {
+      brand: 'pny',
+      model: 'xlr8 revel',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/pny-geforce-rtx-3080-xlr8-gaming-revel-epic-x-rgb-triple-fan-edition-10gb-gddr6x',
+    },
+    {
+      brand: 'asus',
+      model: 'ekwb',
+      series: '3080',
+      url:
+        'https://www.pccomponentes.com/asus-ekwb-geforce-rtx-3080-10gb-gddr6x',
     },
     {
       brand: 'amd',
