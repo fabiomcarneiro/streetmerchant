@@ -25,13 +25,9 @@ export function sendDiscordMessage(link: Link, store: Store) {
     (async () => {
       try {
         const embed = new Discord.MessageEmbed()
-          .setTitle('VIZBOT NEW STOCK !!')
-          .setDescription(
-            `${link.brand} ${link.model} ${link.series}`
-          )
-          .setThumbnail(
-            'https://i.imgur.com/32zaf1G.png'
-          )
+          .setTitle(`VIZBOT - ${store.name} ${link.series} `)
+          .setDescription(`${link.brand} ${link.model} ${link.series}`)
+          .setThumbnail('https://i.imgur.com/32zaf1G.png')
           .setColor('#52b788')
           .setTimestamp();
 

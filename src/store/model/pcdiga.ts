@@ -159,6 +159,12 @@ export const PCDiga: Store = {
       url:
         'https://www.pcdiga.com/componentes/placas-graficas/placas-graficas-nvidia/placa-grafica-asus-dual-geforce-rtx-3060-ti-8gb-gddr6-oc-90yv0g12-m0na00',
     },
+    {
+      brand: 'amd',
+      model: '5900x',
+      series: 'ryzen5900',
+      url: 'https://www.pcdiga.com/processador-amd-ryzen-9-5900x-12-core-3-7ghz-c-turbo-4-8ghz-70mb-sktam4-100-100000061wof',
+    }
   ],
   name: 'pcdiga',
 };
